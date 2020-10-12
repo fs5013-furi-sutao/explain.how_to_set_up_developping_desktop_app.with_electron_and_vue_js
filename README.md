@@ -115,9 +115,9 @@ namespace App\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-```diff
+
 + use Laravel\Passport\HasApiTokens;
-```
+
 class User extends Authenticatable
 ```
 
