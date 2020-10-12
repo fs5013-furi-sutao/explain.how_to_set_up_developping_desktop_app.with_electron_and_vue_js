@@ -108,7 +108,7 @@ Windows用: your-app-name Setup 1.0.0.exe
 
 このインストーラーを起動すれば、アプリが PC にインストールされて起動する。
 
-```php
+```diff
 <?php
 
 namespace App\Models;
