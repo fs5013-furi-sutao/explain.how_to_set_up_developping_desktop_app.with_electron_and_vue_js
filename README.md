@@ -107,17 +107,3 @@ Mac用: your-app-name-1.0.0.dmg
 Windows用: your-app-name Setup 1.0.0.exe  
 
 このインストーラーを起動すれば、アプリが PC にインストールされて起動する。
-
-```diff
-<?php
-
-namespace App\Models;
-
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-
-+ use Laravel\Passport\HasApiTokens;
-
-class User extends Authenticatable
-```
-
